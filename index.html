@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Секретные посылки</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <a href="#">
+                <h1>Посылки</h1>
+            </a>
+            <a href="#">
+                <h1>Упаковка</h1>
+            </a>
+            <a href="#">
+                <h1>Подписка</h1>
+            </a>
+            <img class="logo" src="images/Frame 335 (1).svg" alt="guidedao" />
+        </header>
+        <div class="hero">
+            <div class="formandbutton">
+                <form action="https://formspree.io/f/xdorqyyy" method="post" class="form" id="idform">
+                    <div class="form-row">
+                        <label for="name">Имя</label>
+                        <input id="name" name="name" type="text" />
+                    </div>
+                    <div class="form-row">
+                        <label for="city">Город</label>
+                        <input id="city" name="city" type="text" />
+                    </div>
+                    <div class="form-row">
+                        <label for="gift">Подарок</label>
+                        <input id="gift" name="gift" type="text" />
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Электронная почта</label>
+                        <input id="email" name="email" type="email" placeholder="superuser@me.com" />
+                    </div>
+                </form>
+
+                <button type="submit" form="idform">Отправить</button>
+            </div>
+        </div>
+        <div class="ontheway">
+            <h2>Ваша посылка уже в пути!</h2>
+        </div>
+        <footer class="footer">
+            <h1>Секретные посылки для друзей</h1>
+            <p>© 2023</p>
+        </footer>
+    </div>
+</body>
+
+</html>

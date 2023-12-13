@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: #FF6500;
+    color: aliceblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+a:any-link,
+a:active {
+    text-decoration: none;
+    color: aliceblue;
+
+
+    margin-left: 2%;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+.hero {
+    width: 100%;
+    height: 643px;
+    background-image: url(images/Background\ from\ MCS.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 2%;
+}
+
+.formandbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 300px;
+    height: auto;
+
+    background-color: #FF6500;
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    border: 3px solid #FFF;
+    padding: 20px;
+    border-radius: 20px;
+
+    text-align: start;
+
+}
+
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    background-color: #FF6500;
+    width: 100%;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1.5px solid aliceblue;
+    border-radius: 20px;
+
+
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+    box-shadow: none;
+}
+
+
+button {
+    width: 300px;
+    padding: 5%;
+    background-color: #FFD930;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #FF6500;
+}
+
+.ontheway {
+    background-color: #336FD1;
+    width: 100%;
+    height: 180px;
+    color: aliceblue;
+    text-align: start;
+    padding-left: 2%;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: #FF6500;
+    color: aliceblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+p {
+    margin-left: auto;
+}
